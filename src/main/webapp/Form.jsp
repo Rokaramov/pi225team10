@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>Калькулятор - площадь кругового сектора</h1>
-	<form action="${pageContext.request.contextPath}/Results" method="post">
+	<form action="${pageContext.request.contextPath}/Result" method="post">
 			<label for="first">Радиус:</label>
 			<input type="text" name="first" id="first" value="${first}">
 			<label for="second">Угол: </label>
