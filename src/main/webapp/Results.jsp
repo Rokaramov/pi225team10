@@ -7,9 +7,10 @@
 <title>Результат вычислений</title>
 </head>
 <body>
-<h1>Результат:</h1>
-<h2>Ваши введенные данные:</h2>
-<p><strong>Радиус:</strong> ${first}</p>
-
+	<h1>Результат вычислений:</h1>
+	<h2>Ваши введенные данные:</h2>
+	<p><strong>Радиус:</strong> ${first}</p>
+	<p><strong>Угол:</strong> ${second}</p>
+	<p><strong>Результат:</strong> ${results}</p>
 </body>
 </html>
