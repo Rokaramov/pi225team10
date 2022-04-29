@@ -51,5 +51,5 @@ public class Calc extends HttpServlet{
 			request.setAttribute("result", result);
 		}
 	}
-
+// commit tupit i wot izmeneniya
 }
