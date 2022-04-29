@@ -6,5 +6,6 @@ public class Check {
 	public void Check() {
 		int check;
 		double che;
+		String finalChe;
 	}
 }
