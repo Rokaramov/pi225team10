@@ -4,7 +4,7 @@ public class Schet extends abstr{
 	
 	public double sum = 0;
 	
-	public Schet(double Pi, double R, double a) {
+	public Schet(Double Pi, Double R, Double a) {
 		sum = chet(Pi, R, a);
 	}
 	public double getSum() {

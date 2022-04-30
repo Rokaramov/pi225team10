@@ -20,9 +20,10 @@ public class Calc extends HttpServlet{
 	}
 	
 	private static class RequestCalc {
-		private final String first_calc;
-		private final String second_calc;
-		private double result;
+		private  String first_calc = new String();
+		private  String second_calc = new String();
+		private Double result;
+	
 		
 		private RequestCalc (String first, String second) {
 			this.first_calc = first;

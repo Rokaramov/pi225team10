@@ -11,7 +11,7 @@
 	<form action="${pageContext.request.contextPath}/Calc" method="post">
 			<label for="first">Радиус в миллиметрах:</label>
 			<input type="text" name="first" id="first" value="${first}">
-			<label for="second">Угол: </label>
+			<label for="second">Угол в градусах: </label>
 			<input type="text" name="second" id="second" value="${second}">
 			<input type="submit" name="sign" value="Calculate">
 		</form>
