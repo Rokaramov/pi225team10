@@ -1,6 +1,7 @@
 package circle;
 
 import java.io.IOException;
+import java.math.*;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -47,9 +48,9 @@ public class Calc extends HttpServlet{
 				first_try=0;
 				second_try=0;
 			}
-			result=(((3.1415926 * (first_try * first_try))/360) * second_try);
+			Schet sch = new Schet(Math.PI, first_try, second_try);
+			result = sch.getSum();
 			request.setAttribute("result", result);
 		}
 	}
-// commit tupit i wot izmeneniya
 }
