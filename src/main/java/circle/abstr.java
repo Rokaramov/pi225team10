@@ -1,6 +1,6 @@
 package circle;
 
-public class abstr {
+public abstract class abstr {
 	private double result;
 	private final static double Pi = 3.1415926536;
 	public double chet(double Pi, double R, double a) {
