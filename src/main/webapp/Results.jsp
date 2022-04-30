@@ -9,8 +9,8 @@
 <body>
 	<h1>Результат вычислений:</h1>
 	<h2>Ваши введенные данные:</h2>
-	<p><strong>Радиус:</strong> ${first}</p>
+	<p><strong>Радиус в миллиметрах:</strong> ${first}</p>
 	<p><strong>Угол:</strong> ${second}</p>
-	<p><strong>Результат:</strong> ${result}</p>
+	<p><strong>Результат в миллиметрах:</strong> ${result}</p>
 </body>
 </html>
